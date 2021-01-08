@@ -32,7 +32,7 @@ void findAndReplaceInFile()
     word[strlen(word) - 1] = word[strlen(word)]; 
   
     puts("Enter the word to replace it with :"); 
-    fgets(replace, 100, stdin); 
+    fgets(replace, 100, stdin);
   
   
     replace[strlen(replace) - 1] = replace[strlen(replace)]; 
